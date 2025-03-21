@@ -47,4 +47,22 @@ form button{
     background-color: brown;
     cursor: pointer;
 }
+@media screen and ( min-width:300px)  and (max-width:800px){
+    .container{
+        height: 100%;
+        width: 50%;
+        background: white;
+        border-radius: 8px;
+        padding: 40px;
+        
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: blueviolet;
+    }
+
+}
 
