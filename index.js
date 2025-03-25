@@ -104,52 +104,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-/*new update1*/
-/*const profilePic = document.querySelector("#profile-pic");
-const profileInfo = document.querySelector("#profile-info");
-
-profilePic.addEventListener("click", (event) => {
-    if (profileInfo.classList.contains("visible")) {
-        profileInfo.classList.remove("visible");
-    } else {
-        profileInfo.classList.add("visible");
-    }
-    event.stopPropagation();
-});
-
-document.addEventListener("click", (event) => {
-    if (!profileInfo.contains(event.target) && event.target !== profilePic) {
-        profileInfo.classList.remove("visible");
-    }
-});*/
-
-
-
-
-/*new update2 */
-/*const menu=document.querySelector("#menu");
-const menusection=document.querySelector("#menu-section");
-
-
-menu.addEventListener("click",(event)=>{
-    if(menusection.classList.contains("visible")){
-        menusection.classList.remove("visible");
-    }
-    else{
-        menusection.classList.add("visible");
-        hidden.style.display = "none";  
-        menuinfo.style.display = "";    
-    }
-    event.stopPropagation();
-});
-
-document.addEventListener("click", (event) => {
-    if (!menusection.contains(event.target) && event.target !== menu) {
-        menusection.classList.remove("visible");
-    }
-});*/
-
-
 const profilePic = document.querySelector("#profile-pic");
 const profileInfo = document.querySelector("#profile-info");
 const menuSection = document.querySelector("#menu-section");
@@ -221,7 +175,7 @@ hidden1.addEventListener("click", () => {
 
 
 
-/*const myprofile=document.querySelector("#my-profile");*/
+
 
 
 
